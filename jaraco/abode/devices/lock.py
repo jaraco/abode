@@ -7,7 +7,10 @@ from . import status as STATUS
 class Lock(base.Device):
     """Class to represent a door lock."""
 
-    tags = ('door_lock',)
+    tags = (
+        'door_lock',
+        'retrofit_lock',
+    )
 
     def lock(self) -> None:
         """Lock the device."""

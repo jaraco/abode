@@ -31,6 +31,8 @@ class Connectivity(BinarySensor):
         'bx',
         # moisture
         'water_sensor',
+        'fix_panic',
+        'smoke_detector',
     )
 
 
