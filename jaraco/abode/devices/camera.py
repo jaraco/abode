@@ -33,6 +33,7 @@ class Camera(base.Device):
         # outdoor smart camera
         'vdp',
         'mini_cam',
+        'doorbell',
     )
     _image_url = None
     _snapshot_base64 = None
